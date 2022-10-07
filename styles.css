@@ -19,9 +19,11 @@ body{
     flex-direction: column;
 }
 .left-login >h1{
-    color: rgb(227, 227, 248);
-    
-    
+    color: rgb(227, 227, 248);  
+}
+
+.left-login-img{
+    width: 350px;
 }
 
 .right-login{
@@ -70,5 +72,17 @@ body{
     color: rgb(29, 18, 18);
     margin-bottom: 05px;
 }
-
+.btn-login{
+    width: 80%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: blue;
+    cursor: pointer;
+}
 
